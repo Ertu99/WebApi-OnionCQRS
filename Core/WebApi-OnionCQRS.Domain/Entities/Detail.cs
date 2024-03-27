@@ -1,6 +1,8 @@
+using WebApi_OnionCQRS.Domain.Common;
+
 namespace WebApi_OnionCQRS.Domain.Entities;
 
-public class Detail
+public class Detail : EntityBase
 {
     public Detail()
     {
